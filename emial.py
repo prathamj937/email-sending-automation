@@ -72,7 +72,7 @@ Email: prathamjain@email.com
 Phone: +91-7827055486
 https://www.linkedin.com/in/pratham-j-467469250/
 https://github.com/prathamj937
-Portfolio Link: 
+Portfolio Link: https://portfolio-five-tawny-77.vercel.app/
 """
 
             attachment_path = "resume.pdf" 
