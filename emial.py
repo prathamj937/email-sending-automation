@@ -40,7 +40,7 @@ def send_email(emailSend, sender_password, emailRec, subject, body, attachment_p
 
 if __name__ == '__main__':
     try:
-        with open('email.txt', 'r') as f:
+        with open('emails.txt', 'r') as f:
             emailList = [line.strip() for line in f if line.strip()]
 
         if not emailList:
@@ -72,7 +72,7 @@ Email: prathamjain@email.com
 Phone: +91-7827055486
 https://www.linkedin.com/in/pratham-j-467469250/
 https://github.com/prathamj937
-Portfolio Link: https://vercel.com/prathamj937s-projects/portfolio/FXGFXuoFdHK4hwFa4EESgJajg3me
+Portfolio Link: 
 """
 
             attachment_path = "resume.pdf" 
